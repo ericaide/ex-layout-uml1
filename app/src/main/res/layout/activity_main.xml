@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp">
+
+
+    <TextView
+        android:id="@+id/texto_display_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Nome" />
+
+    <EditText
+        android:id="@+id/texto_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/texto_display_nome"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/texto_display_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/texto_nome"
+        android:layout_marginTop="10sp"
+        android:text="Email" />
+
+
+    <EditText
+        android:id="@+id/texto_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/texto_display_email"
+        android:inputType="textWebEmailAddress" />
+
+
+    <Button
+        android:id="@+id/botao_enviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#536DFE"
+        android:fontFamily="Roboto"
+        android:lineSpacingMultiplier="0.38"
+        android:textAllCaps="false"
+        android:text="Enviar"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
